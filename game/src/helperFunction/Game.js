@@ -4,7 +4,6 @@ export const getStatus = (guess, value) => {
       return "Nope. Your guess is higher than the value";
     else return "You got it";
   };
-  export const Reset = () => {};
   export const randomInteger = (lowerValue, upperValue, guessValue) => {
     const range = upperValue - lowerValue;
     if (!guessValue) {
