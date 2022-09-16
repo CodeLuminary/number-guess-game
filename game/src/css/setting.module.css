@@ -31,7 +31,7 @@
     background-color: red;
     color: #fff;
   }
-  .content input[type="text"] {
+  .content input {
     height: 30px;
     width: 100%;
     margin: 3px 0px 15px;

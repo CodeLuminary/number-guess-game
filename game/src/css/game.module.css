@@ -33,7 +33,7 @@
     background-color: transparent;
     color: #428bca;
   }
-  .contentBody input[type="text"] {
+  .contentBody input {
     height: 30px;
     width: 100%;
     margin: 3px 0px 18px;
@@ -68,7 +68,7 @@
   }
   .point {
     position: absolute;
-    right: 0px;
+    right: 0px;top:40px;
     background-color: #9cc2e3;
     padding: 3px 5px 5px 10px;
     border-radius: 15px 0px 0px 15px;
