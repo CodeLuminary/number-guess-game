@@ -53,7 +53,7 @@ const Game = ({ showSetting }) => {
           <br />
           <input
             onInput={(e) => setTxt(e.target.value)}
-            type="text"
+            type="number"
             placeholder="Enter your guess here"
           />
           <br />

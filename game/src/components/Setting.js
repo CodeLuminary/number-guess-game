@@ -21,11 +21,11 @@ const Setting = ({ shouldShow, closeSetting }) => {
         <label>Set the lower & upper limit of the guess number</label><br/><br/>
         <label>Lower</label>
         <br />
-        <input onInput={e=>setLowerValue(Number(e.target.value))} type="text" placeholder="Enter lower limit"/>
+        <input onInput={e=>setLowerValue(Number(e.target.value))} type="number" placeholder="Enter lower limit"/>
         <br />
         <label>Upper</label>
         <br />
-        <input onInput={e=>setUpperValue(Number(e.target.value))} type="text" placeholder="Enter upper limit"/>
+        <input onInput={e=>setUpperValue(Number(e.target.value))} type="number" placeholder="Enter upper limit"/>
         <button onClick={()=>{dispatch(setGame({
           guessValue: randomInteger(lowerValue, upperValue),
           lowerBound: lowerValue,
