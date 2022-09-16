@@ -1,0 +1,65 @@
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+  }
+  .content > div {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    width: 380px;
+  }
+  .contentBody,
+  .contentHeader {
+    padding: 20px;
+  }
+  .contentHeader {
+    background-color: #d9d9d9;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .contentHeader button {
+    float: right;
+    color: #fff;
+    background-color: #428bca;
+    border: 1px solid #428bca;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -4px;
+  }
+  .contentHeader button:hover {
+    background-color: transparent;
+    color: #428bca;
+  }
+  .contentBody input[type="text"] {
+    height: 30px;
+    width: 100%;
+    margin: 3px 0px 18px;
+    background-color: #fcfcfc;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  .contentBody button {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #3277b3;
+    color: #fff;
+    border: 2px solid #3277b3;
+    cursor: pointer;
+  }
+  .contentBody button:hover {
+    background-color: transparent;
+    color: #3277b3;
+  }
+  .label {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  .label span {
+    font-weight: bold;
+  }
+  
