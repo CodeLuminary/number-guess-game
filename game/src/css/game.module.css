@@ -62,4 +62,15 @@
   .label span {
     font-weight: bold;
   }
+
+  .contentBody {
+    position: relative;
+  }
+  .point {
+    position: absolute;
+    right: 0px;
+    background-color: #9cc2e3;
+    padding: 3px 5px 5px 10px;
+    border-radius: 15px 0px 0px 15px;
+  }
   
