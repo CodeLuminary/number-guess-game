@@ -1,6 +1,6 @@
 # NUMBER GUESS GAME
 
-The is a number guess game written in React
+The is a number guess game written in React. Play it and try and have 100 points :bowtie: :blush:
 
 You can play game [here](https://h8x6ez.csb.app/)
 
@@ -8,9 +8,9 @@ You can play game [here](https://h8x6ez.csb.app/)
 - Install [NodeJS](https://nodejs.org/en/)
 
 ## Setting Up
-- 1. Fork/Clone/Download the Repository 
-- 2. Open project folder in a terminal
-- 3. Install Dependencies by entering the following command
+-  Fork/Clone/Download the Repository 
+-  Open project folder in a terminal
+-  Install Dependencies by entering the following command
 ```
 npm install
 ```
